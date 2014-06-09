@@ -1,5 +1,5 @@
 import json;
-from django.http import HttpResponse;
+from django.http import HttpResponse, HttpResponseRedirect;
 from django.views.generic.base import View;
 from django.utils.decorators import method_decorator;
 
